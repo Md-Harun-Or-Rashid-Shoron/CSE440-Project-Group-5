@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 # dataset
-file_path = 'D:\CSE498R\Sleep_health_and_lifestyle_dataset.csv'
+file_path = 'D:\Sleep_health_and_lifestyle_dataset.csv'
 data = pd.read_csv(file_path)
 
 # Label encoding
