@@ -10,6 +10,7 @@ This project focuses on predicting sleep disorders using various machine learnin
 - [Dataset](#dataset)
 - [Models and Techniques](#models-and-techniques)
 - [Results](#results)
+- [Graphs](#graphs)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Scope](#future-scope)
@@ -53,6 +54,15 @@ Each model was trained and tuned using hyperparameter optimization techniques to
   - F1 Score: 86.3%
   
 Other models like Random Forest, SVM, and Logistic Regression also achieved competitive accuracy (88%) after hyperparameter tuning.
+
+---
+
+## Graphs
+### Model Accuracy: Default vs. Tuned Hyperparameters
+![Default vs. Tuned Accuracy](screenshot/default_vs_tuned.png)
+
+### Default Accuracy of Models
+![Default Accuracy of Models](screenshot/default_accuracy.png)
 
 ---
 
